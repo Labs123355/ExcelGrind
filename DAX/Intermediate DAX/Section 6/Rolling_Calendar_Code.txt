@@ -1,0 +1,7 @@
+STEP 1:
+=#date(2013,1,1)
+
+STEP 2:
+=List.Dates(Source, Number.From(DateTime.LocalNow()) - Number.From(Source), #duration(1,0,0,0))
+
+*NOTE: If your first applied step is not named "Source" (which is common outside of the US), replace "Source" in the formula above with the name of your first step.  
